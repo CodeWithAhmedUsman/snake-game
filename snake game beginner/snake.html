@@ -7,6 +7,7 @@
 		content="width=device-width, initial-scale=1.0">
 	<title>Snake Game with GFG</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="script.js"> 
 	<script src="script.js"></script>
 </head>
 
@@ -15,6 +16,17 @@
 		<div class="geeks">HCJ</div>
 	</h1>
 	<canvas id="board"></canvas>
+	<div id="score">Score: 0</div>
+	
+	<div class="gameover-container" id="gameover-container" style="display: none;">
+        <h1>Game Over</h1>
+        <p>Your score: <span id="final-score">0</span></p>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+
+
+
+
 </body>
 
 </html>

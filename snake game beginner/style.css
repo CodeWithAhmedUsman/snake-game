@@ -1,6 +1,10 @@
 /* Write CSS Here */
 body {
 	text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
 
@@ -10,4 +14,51 @@ body {
 	font-size: 40px;
 	font-weight: bold;
 	color: green;
+}
+
+
+
+#score {
+    position: absolute;
+    top: 135px;
+    left: 835px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.gameover-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
 }
